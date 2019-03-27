@@ -1,0 +1,17 @@
+{
+    "addr": "0.0.0.0:81",
+    "debug": true,
+    "mongo": {
+        "host": "127.0.0.1",
+        "port": "27017",
+        "db": "gfdb"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": "6379"
+    },
+    "statistics": {
+        "record_threshold": 1000,
+        "min_record_count": 10
+    }
+}
